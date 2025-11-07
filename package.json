@@ -1,0 +1,23 @@
+{
+  "name": "devaiana-test-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "action": "act -j devaiana-sync.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbaglivo/devaiana-test-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbaglivo/devaiana-test-service/issues"
+  },
+  "homepage": "https://github.com/nbaglivo/devaiana-test-service#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
