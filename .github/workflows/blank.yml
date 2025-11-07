@@ -1,0 +1,14 @@
+name: Devaina Sync
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: nbaglivo/devaina-report-service-metadata@v1
+        with:
+          devaina-api-token: ${{ secrets.IDP_API_TOKEN }}
