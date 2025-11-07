@@ -1,7 +1,7 @@
 {
   "name": "devaiana-test-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test Service for Devaina",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

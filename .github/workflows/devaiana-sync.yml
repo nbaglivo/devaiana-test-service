@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: nbaglivo/devaina-report-service-metadata@v1.0.7
+      - uses: nbaglivo/devaina-report-service-metadata@v1.0.8
         with:
           devaina-api-token: ${{ secrets.IDP_API_TOKEN }}
           component-type: "service"
